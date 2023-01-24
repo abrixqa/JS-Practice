@@ -50,4 +50,17 @@ console.log(revString('hello World!'));// 'olleh Drlow!'
 console.log(revString('Start for Free')); //"Trats rof Eerf"
 
 
+//Find the Square Root
+function squareRoot(x) {
+    return +((x ** .5).toFixed(5))
+}
 
+//Discover the original price
+function discoverOriginalPrice(discountedPrice, salePercentage){
+    return Number((discountedPrice / (1 - (salePercentage / 100))).toFixed(2))
+}
+
+//Area of a Square
+function squareArea(A){
+    return +Math.pow(2 * A / Math.PI, 2).toFixed(2);
+}
