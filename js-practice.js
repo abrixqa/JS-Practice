@@ -64,3 +64,8 @@ function discoverOriginalPrice(discountedPrice, salePercentage){
 function squareArea(A){
     return +Math.pow(2 * A / Math.PI, 2).toFixed(2);
 }
+
+//Arithmetic average
+function average(a, b){
+    return (( a + b )/2).toFixed(2);
+}
