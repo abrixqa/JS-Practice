@@ -99,6 +99,7 @@ function hypotenuse(a, b){
 
 
 // Find the area of a circle if the circumference is known.
+// circle_Area(16) should return 20
 function circle_Area(circleLength){
     let r = circleLength/(Math.PI * 2);
     return Math.round(Math.PI * Math.pow(r, 2));
