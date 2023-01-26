@@ -95,3 +95,12 @@ function hypotenuse(a, b){
     let c = Math.pow(a, 2) + Math.pow(b, 2);
     return Math.ceil(Math.sqrt(c));
 }
+
+
+
+// Find the area of a circle if the circumference is known.
+function circle_Area(circleLength){
+    let r = circleLength/(Math.PI * 2);
+    return Math.round(Math.PI * Math.pow(r, 2));
+}
+
