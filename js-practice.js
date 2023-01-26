@@ -75,3 +75,16 @@ function average(a, b){
 function geometricMean(a, b){
     return Math.sqrt(a*b).toFixed(2);
 }
+
+
+//Area of a circle
+function circleArea(r){
+    return Math.round(Math.PI * Math.pow(r, 2));
+}
+
+
+
+//Area of a ring bounded by two circles
+function ringArea(r1, r2){
+    return Math.floor(Math.PI * Math.pow(r1, 2) - Math.PI * Math.pow(r2, 2));
+}
