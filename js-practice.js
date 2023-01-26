@@ -88,3 +88,10 @@ function circleArea(r){
 function ringArea(r1, r2){
     return Math.floor(Math.PI * Math.pow(r1, 2) - Math.PI * Math.pow(r2, 2));
 }
+
+
+// The hypotenuse of a right triangle is always the side opposite the right angle. It is the longest side in a right triangle
+function hypotenuse(a, b){
+    let c = Math.pow(a, 2) + Math.pow(b, 2);
+    return Math.ceil(Math.sqrt(c));
+}
