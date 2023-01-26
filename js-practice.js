@@ -3,20 +3,32 @@ function opposite(num){
     return -num;
 }
 
+
+
+
 // Difference of squares
 function differenceOfSquares(num1, num2){
     return num1 ** 2 - num2 ** 2;
 }
+
+
+
 
 //Area and perimeter of a triangle
 function triangle(a, b, c){
     return [a + b + c, ((a + b + c) /2 * ((a + b + c) /2 - a) * ((a + b + c) /2 -  b) * ((a + b + c) /2 - c)) ** 0.5 ];
 }
 
+
+
+
 //Time in seconds
 function time(hour, minutes, seconds){
     return hour * 60 ** 2 + minutes * 60 + seconds;
 }
+
+
+
 
 //Reverse sentence
 function revString(str) {
@@ -50,15 +62,24 @@ console.log(revString('hello World!'));// 'olleh Drlow!'
 console.log(revString('Start for Free')); //"Trats rof Eerf"
 
 
+
+
+
 //Find the Square Root
 function squareRoot(x) {
     return +((x ** .5).toFixed(5))
 }
 
+
+
+
 //Discover the original price
 function discoverOriginalPrice(discountedPrice, salePercentage){
     return Number((discountedPrice / (1 - (salePercentage / 100))).toFixed(2))
 }
+
+
+
 
 //Area of a Square
 function squareArea(A){
@@ -66,15 +87,22 @@ function squareArea(A){
 }
 
 
+
+
 //Arithmetic average
 function average(a, b){
     return (( a + b )/2).toFixed(2);
 }
 
+
+
+
 //Geometric mean
 function geometricMean(a, b){
     return Math.sqrt(a*b).toFixed(2);
 }
+
+
 
 
 //Area of a circle
@@ -84,10 +112,15 @@ function circleArea(r){
 
 
 
+
+
 //Area of a ring bounded by two circles
 function ringArea(r1, r2){
     return Math.floor(Math.PI * Math.pow(r1, 2) - Math.PI * Math.pow(r2, 2));
 }
+
+
+
 
 
 // The hypotenuse of a right triangle is always the side opposite the right angle. It is the longest side in a right triangle
@@ -95,6 +128,8 @@ function hypotenuse(a, b){
     let c = Math.pow(a, 2) + Math.pow(b, 2);
     return Math.ceil(Math.sqrt(c));
 }
+
+
 
 
 
