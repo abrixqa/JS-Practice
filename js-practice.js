@@ -140,3 +140,30 @@ function circle_Area(circleLength){
     return Math.round(Math.PI * Math.pow(r, 2));
 }
 
+
+
+
+// Write a function that will return the second letter in the string, but doesn't count the spaces in the string as the first letter.
+// Write code without using methods.
+function getSecondLetter(str) {
+    let count = 0;
+    for(let i = 0; i < str.length; i++){
+        if ( str[i] !== ' ') {
+            count++;
+        }
+        if (count === 2){
+            return str[i];
+        }
+    }
+}
+console.log(getSecondLetter(' florida'));
+
+//or
+
+function getSecondNonSpaceSymbol(str){
+    let i = 0;
+    while ( i < str.length && str[i] === ' ')
+       i++;
+    return i + 1 < str.length ? str[i+1] : undefined;
+}
+
