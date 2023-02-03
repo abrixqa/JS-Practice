@@ -175,3 +175,4 @@ function convertToCelsius (fahrenheit) {
         return (celsius + " is above freezing temperature")
 }
 console.log(convertToCelsius(50))
+
