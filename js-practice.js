@@ -167,3 +167,11 @@ function getSecondNonSpaceSymbol(str){
     return i + 1 < str.length ? str[i+1] : undefined;
 }
 
+function convertToCelsius (fahrenheit) {
+    var celsius = (fahrenheit - 32) * (5/9)
+    if (celsius < 0)
+        return (celsius + " is freezing temperature")
+    else
+        return (celsius + " is above freezing temperature")
+}
+console.log(convertToCelsius(50))
